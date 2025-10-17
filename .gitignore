@@ -1,0 +1,28 @@
+# Virtual Environment
+# Never commit the virtual environment folder
+.venv/
+
+# Python cache files
+# These are generated automatically by Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor configuration
+# User-specific settings that don't belong in the repo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+# Generated when you build or distribute your package
+build/
+dist/
+*.egg-info/
+
+# Logs and local configs
+# Never commit logs or sensitive environment variables
+*.log
+.env
